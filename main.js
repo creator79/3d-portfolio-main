@@ -28,23 +28,23 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/projects/board.png',
+    image: 'textures/projects/board.webp',
     url: 'https://www.spaze.social/',
   },
   {
-    image: 'textures/projects/excel.png',
+    image: 'textures/projects/excel.webp',
     url: 'https://myteachers.com.au/',
   },
   {
-    image: 'textures/projects/mac.png',
+    image: 'textures/projects/mac.webp',
     url: 'https://wholesale.com.np/',
   },
   {
-    image: 'textures/projects/peer.png',
+    image: 'textures/projects/peer.webp',
     url: 'https://www.peloterosenlaweb.com/',
   },
   {
-    image: 'textures/projects/zencode.png',
+    image: 'textures/projects/zencode.webp',
     url: 'https://www.zencode.guru/',
   },
 ];
@@ -129,7 +129,7 @@ gltfLoader.load(
 
     // load video
     const video = document.createElement('video');
-    video.src = 'textures/projects/vedio.mp4';
+    video.src = 'textures/arcane.mp4';
     video.muted = true;
     video.playsInline = true;
     video.autoplay = true;
@@ -191,7 +191,7 @@ gltfLoader.load(
 
         // adding texture to book
         const bookTexture = new THREE.TextureLoader().load(
-          'textures/book.png'
+          'textures/book.webp'
         );
         bookTexture.flipY = false;
         child.material = new THREE.MeshStandardMaterial({
